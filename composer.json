@@ -1,5 +1,5 @@
 {
-    "name": "mpyw/co",
+    "name": "kawakami-o3/co",
     "description": "Asynchronous cURL executor simply based on resource and Generator",
     "type": "library",
     "license": "MIT",
@@ -12,8 +12,8 @@
     ],
     "authors": [
         {
-            "name": "mpyw",
-            "email": "ryosuke_i_628@yahoo.co.jp"
+            "name": "kawakami",
+            "email": "kawakami.ozone@gmail.com"
         }
     ],
     "autoload": {
@@ -23,7 +23,7 @@
     },
     "require": {
         "php": ">=5.5.0",
-        "lib-curl": ">=7.20.0",
+        "lib-curl": "*",
         "ext-Reflection": "*",
         "react/promise": "^2.4"
     },
